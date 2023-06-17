@@ -1,0 +1,126 @@
+
+body{
+    margin:0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header{
+    background-color: #C8A35F;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    justify-content: space-between;
+    margin: 16px 10%;
+}
+
+.language{
+    display: flex;
+    flex-direction: row;
+}
+
+#lang-ru,#lang-eng,#lang-fr{
+    padding-right: 10px;
+}
+
+.main{
+    background-color: #2F343A;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-first-line{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 5%;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#services,#company,#vacancies,#contacts{
+    padding-right: 30px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    border-left: solid #F2F2F2 1px;
+    align-items: center;
+}
+
+#location-img{
+    margin-left: 30px;
+}
+#location-text{
+    margin-left:10px
+}
+
+.logo{
+    margin-right: 30px;
+    align-items: center;
+}
+
+.main-second-line{
+    background-image: url(Rectangle\ 2.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.company-text{
+    border: 1px solid #C8A35F;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 155px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#company-title{
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+
+#company-description{
+    margin: 25px 170px;
+}
+
+.mouse{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
